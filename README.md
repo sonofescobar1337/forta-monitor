@@ -60,5 +60,5 @@ list command bot :
 [Tron TRC-20] TEXwAYqTMb5F7hDj7QnawNVYLqfyv8oNWe <br>
 
 ## Screenshots
-![Screenshots 1](https://github.com/sonofescobar1337/forta-monitor/assets/scrennshots-1.jpg?raw=true)
-![Screenshots 2](https://github.com/sonofescobar1337/forta-monitor/assets/scrennshots-2.jpg?raw=true)
+![Screenshots 1](https://github.com/sonofescobar1337/forta-monitor/blob/main/assets/scrennshots-1.jpg?raw=true)
+![Screenshots 2](https://github.com/sonofescobar1337/forta-monitor/blob/main/assets/scrennshots-2.jpg?raw=true)
