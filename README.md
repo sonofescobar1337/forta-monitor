@@ -61,4 +61,4 @@ list command bot :
 
 ## Screenshots
 ![Screenshots 1](https://github.com/sonofescobar1337/forta-monitor/blob/main/assets/scrennshots-1.jpg?raw=true)
-![Screenshots 2](https://github.com/sonofescobar1337/forta-monitor/blob/main/assets/scrennshots-2.jpg?raw=true)
+![Screenshots 2](https://github.com/sonofescobar1337/forta-monitor/blob/main/assets/screenshots-2.jpg?raw=true)
