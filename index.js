@@ -221,7 +221,7 @@ const sendSLAData = async () => {
       const seconds = Math.floor((remainingTime / 1000) % 60);
       const minutes = Math.floor((remainingTime / (1000 * 60)) % 60);
       const hours = Math.floor(remainingTime / (1000 * 60 * 60));
-      console.log(`Next Data Auto check in ${hours} hours ${minutes} minutes ${seconds} seconds`);
+     // console.log(`Next Data Auto check in ${hours} hours ${minutes} minutes ${seconds} seconds`);
     }
   }, 1000);
   
