@@ -26,7 +26,7 @@ client.on('message', async (message) => {
     const monitorUrl = `http://${serverUrl}/monitor.php`;
     const response = await axios.get(monitorUrl);
     const data = response.data;
-    const reply = `CPU USAGE = ${(data.cpuUsage * 100.0).toFixed(0)}%\nUp time = ${data.uptime}\nram usage = ${data.ramUsage}`;
+    const reply = `CPU USAGE = ${(data.cpuUsage * 100.0).toFixed(0)}%\nUp time = ${data.uptime}\nram usage = ${data.usedRam}`;
     message.reply(reply);
   }
 
@@ -35,7 +35,7 @@ client.on('message', async (message) => {
     const monitorUrl = `http://${serverUrl}/monitor.php`;
     const response = await axios.get(monitorUrl);
     const data = response.data;
-    const reply = `CPU USAGE = ${(data.cpuUsage * 100.0).toFixed(0)}%\nUp time = ${data.uptime}\nram usage = ${data.ramUsage}`;
+    const reply = `CPU USAGE = ${(data.cpuUsage * 100.0).toFixed(0)}%\nUp time = ${data.uptime}\nram usage = ${data.usedRam}`;
     message.reply(reply);
   }
   if (message.body === '!forta-server1') {
@@ -151,7 +151,7 @@ const sendSLAData = async () => {
         const response2 = await axios.get(monitorUrl2);
         const data = response.data;
         const data2 = response2.data;
-        const reply = `Ip = ${serverUrl} \nCPU USAGE = ${(data.cpuUsage * 100.0).toFixed(0)}%\nUp time = ${data.uptime}\nram usage = ${data.ramUsage}\n\nIp = ${serverUrl2} \nCPU USAGE = ${(data2.cpuUsage * 100.0).toFixed(0)}%\nUp time = ${data2.uptime}\nram usage = ${data2.ramUsage}\n\n`;
+        const reply = `Ip = ${serverUrl} \nCPU USAGE = ${(data.cpuUsage * 100.0).toFixed(0)}%\nUp time = ${data.uptime}\nram usage = ${data.usedRam}\n\nIp = ${serverUrl2} \nCPU USAGE = ${(data2.cpuUsage * 100.0).toFixed(0)}%\nUp time = ${data2.uptime}\nram usage = ${data2.usedRam}\n\n`;
 
       // Send the reply to the user
       const chat = await client.getChatById(process.env.YOUR_NUMBER + '@c.us');
